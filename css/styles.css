@@ -1,0 +1,299 @@
+body {
+    font-family: 'Times New Roman', Times, serif;
+    padding: 0;
+    margin: 0;
+}
+#navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: sticky;
+    top: 0;
+    z-index: 100;
+    background-color: red;
+    padding: 10px 50px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.2);
+}
+.navbar-img img {
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+}
+.navbar-content {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+.navbar-links a {
+    font-size: 18px;
+    color: white;
+    padding: 10px;
+    text-decoration: none;
+    font-weight: 500;
+}
+.navbar-btn {
+    width: 150px;
+    height: 40px;
+    text-align: center;
+    background-color: white;
+    border-radius: 20px;
+    box-shadow: 0 3px 5px 2px rgba(0,0,0,0.3);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.navbar-btn a {
+    color: red;
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: bolder;
+    letter-spacing: 1px;
+}
+.navbar-btn :hover{
+    width: 150px;
+    height: 40px;
+    background-color: red;
+    color: white;
+    border-radius: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#intro {
+    color: white;
+    height: 500px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-image: url(../img/1.jpg);
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 0 50px;
+}
+.intro-div {
+    padding: 0;
+    text-align: center;
+    max-width: 500px;
+}
+.intro-div h1 {
+    color: white;
+    font-size: 40px;
+    margin-bottom: 10px;
+}
+.intro-div p {
+    color: white;
+    margin-bottom: 20px;
+}
+.intro-div button {
+    align-items: center;
+    width: 200px;
+    height: 45px;
+    text-align: center;
+    background-color: red;
+    border-radius: 25px;
+    border: none;
+    box-shadow: 0 3px 5px 2px rgba(0,0,0,0.3);
+}
+.intro-div button a {
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: bolder;
+}
+.intro-div button :hover{
+    color: black;
+}
+#mission {
+    display: flex;
+    background: linear-gradient(to right, #D31027, #EA384D);
+    height: auto;
+    padding: 50px 0;
+}
+.mission-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 0 auto;
+    padding: 0 15px;
+}
+.mission-heading {
+    max-width: 50%;
+    padding-right: 30px;
+}
+.mission-heading h1 {
+    font-size: 30px;
+    color: rgb(255 255 255);
+    margin-bottom: 15px;
+}
+.mission-heading p {
+    font-size: 18px;
+    color: white;
+    line-height: 1.6;
+}
+.mission-img img {
+    width: 450px;
+    height: auto;
+}
+#card {
+    padding: 50px 0;
+}
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 15px;
+    display: flex;       
+    flex-wrap: wrap;       
+    gap: 30px;     
+    justify-content: space-between;
+}
+.card-title {
+    width: 100%;
+    text-align: center;
+    margin-bottom: 30px;
+    color: black;
+    font-size: 22px;
+    font-weight: 700;
+}
+.card {
+    background: darkred;
+    border-radius: 12px;
+    overflow: hidden;
+    box-shadow: 0 10px 30px rgba(0,0,0,0.08);
+    display: flex;
+    flex-direction: column;
+    min-height: 290px;
+    flex: 20%;
+}
+.card-img {
+    width: 100%;
+    height: 200px;
+}
+.card-body {
+    padding: 14px;
+}
+.card-body h4 {
+    margin: 0 0 8px;
+    color: white;
+    font-size: 18px;
+}
+.card-body p {
+    margin: 0;
+    color: white;
+    font-size: 15px;
+    line-height: 1.5;
+}
+.card-body:hover{
+    background-color: red;
+}
+#donor-form{
+  width:350px;
+  margin:60px auto;
+  background:#fff;
+  padding:25px;
+  border-radius:10px;
+  box-shadow:0 0 10px rgba(0,0,0,0.15);
+  text-align:center;
+}
+#donor-form input, select{
+  width:93%;
+  padding:10px;
+  margin:8px 0;
+  border:1px solid #ccc;
+  border-radius:6px;
+}
+#donor-form select{
+  width:100%;
+  padding:10px;
+  margin:8px 0;
+  border:1px solid #ccc;
+  border-radius:6px;
+}
+#donor-form .btn{
+  width:100%;
+  padding:10px;
+  border:none;
+  border-radius:6px;
+  background:red;
+  color:#fff;
+  cursor:pointer;
+  font-weight:600;
+}
+footer{
+    background: red;
+    padding:10px 0;
+    color:#fff;
+}
+.footer-container{
+    width:90%;
+    margin:auto;
+    display:flex;
+    justify-content:space-between;
+    align-items:flex-start;
+}
+.footer-right iframe{
+    width: 500px;
+    height:230px;
+    border: 0;
+}
+.footer-left img{
+    width: 80px;
+    height: 80;
+    border-radius: 80%;
+}
+@media (max-width: 480px) {
+    #navbar {
+        flex-direction: column;
+        align-items: center;
+        padding: 10px 20px;
+    }
+    .navbar-content {
+        flex-direction: column;
+        gap: 10px;
+    }
+    #intro {
+        flex-direction: column;
+        text-align: center;
+        padding: 20px;
+    }
+    .intro-img {
+        right: 0;
+        margin-top: 20px;
+    }
+    #mission {
+        text-align: center;
+        padding: 30px 20px;
+    }
+    .mission-container{
+        display: flex;
+        flex-direction: column;
+        max-width: 100%;
+        margin-bottom: 20px;  
+    }
+    .mission-container .mission-img img {
+        max-width: 100%;
+        margin-bottom: 20px;  
+    }
+    .container {
+        flex-direction: column;
+        align-items: center;
+    }
+    .card {
+        flex: 1 1 100%;
+    }
+    #donor-form {
+        width: 90%;
+        margin: 30px auto;
+    }
+
+    .footer-container {
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+    .footer-right iframe {
+        width: 100%;
+        height: 200px;
+        margin-top: 15px;
+    }
+}
